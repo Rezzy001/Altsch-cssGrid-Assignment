@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Responsive webpage using HTML and CSS Grid</title>
 </head>
 <body>
     <main class="container">
         <section class="grid">
-            <div class="item item1 flex-container">
-                <div class="profile-img">
-                    <img src="student-unsplash.jpg" alt="Profile Image">
-                </div>
-                <div class="aboutMe">
-                    <h2>About Me</h2>
-                    <p>I am an enthusiastic software developer at <a href="https://www.altschoolafrica.com" target="_blank">Altschool Africa</a>, learning the ropes of web development. I enjoy the blend of creativity and technology in building user-friendly applications.</p>
+            <div class="item item1">
+                <div class="flex-container">
+                    <div class="profile-img">
+                        <img src="student-unsplash.jpg" alt="Profile Image">
+                    </div>
+                    <div class="aboutMe">
+                        <h2>About Me</h2>
+                        <p>My name is Orezi and I am an enthusiastic software developer at <a href="https://www.altschoolafrica.com" target="_blank">Altschool Africa</a>, learning the ropes of web development. I enjoy the blend of creativity and technology in building user-friendly applications.</p>
+                    </div>
                 </div>
             </div>
             <div class="item item2">
                 <h3>Hobbies</h3>
                 <ul>
-                    <li>Reading</li>
-                    <li>Listening to music</li>
-                    <li>Browsing the web</li>
+                    <li>Reading: <span>Reading allows me to explore new ideas and perspectives, explore the world of imagination, improve my vocabulary, and gain knowledge on various topics.</span></li>
+
+                    <li>Listening to music: <span>In a few words, music engages my brain, boosts my mood and reduces stress</span></li>
+                    <li>Browsing the web: <span>Exploring the internet is a great way to learn and find inspiration on various areas of interest.</span></li>
                 </ul>
             </div>
             <div class="item item3">
+                <h3>Aspirations</h3>
                 My aspirations include becoming a skilled full-stack developer, contributing to open-source projects, and continuously learning new technologies to stay ahead in the ever-evolving tech landscape.
             </div>
         </section>
